@@ -56,3 +56,12 @@ def calc_temp_to_C():
 
 if __name__ == "__main__":
     main()
+
+
+    print("続けて計算したい場合は、Yを入力してください")
+    con = input("プログラムを終了するには、Enterキーを押してください: ").upper()
+
+    if con == "Y":
+        main()
+    else:
+        exit()
