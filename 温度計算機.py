@@ -41,6 +41,8 @@ def calc_temp_to_F():
         clearConsole()
         calc_temp_to_F()
 
+    conti()
+
 
 def calc_temp_to_C():
     try:
@@ -53,11 +55,10 @@ def calc_temp_to_C():
         clearConsole()
         calc_temp_to_C()
 
-
-if __name__ == "__main__":
-    main()
+    conti()
 
 
+def conti():
     print("続けて計算したい場合は、Yを入力してください")
     con = input("プログラムを終了するには、Enterキーを押してください: ").upper()
 
@@ -65,3 +66,6 @@ if __name__ == "__main__":
         main()
     else:
         exit()
+
+if __name__ == "__main__":
+    main()
