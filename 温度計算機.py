@@ -3,6 +3,8 @@ from time import sleep
 
 
 def main():
+    clearConsole()
+
     print("""
 変換したい先を選んでください。
 ------------------------------
